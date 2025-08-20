@@ -1,0 +1,24 @@
+{
+    "name": "@sb-lint/stylelint-config-scss",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stefanbaumeler/sb-lint.git"
+    },
+    "author": "Stefan Baumeler",
+    "bugs": {
+        "url": "https://github.com/stefanbaumeler/sb-lint/issues"
+    },
+    "homepage": "https://github.com/stefanbaumeler/sb-lint#readme",
+    "engineStrict": true,
+    "engines": {
+        "node": ">=22.0.0"
+    },
+    "dependencies": {
+        "stylelint": "^16.14.1",
+        "stylelint-config-sass-guidelines": "^12.1.0",
+        "stylelint-scss": "^6.11.1"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "@sb-lint/eslint-config-gql",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stefanbaumeler/sb-lint.git"
+    },
+    "author": "Stefan Baumeler",
+    "bugs": {
+        "url": "https://github.com/stefanbaumeler/sb-lint/issues"
+    },
+    "homepage": "https://github.com/stefanbaumeler/sb-lint#readme",
+    "engineStrict": true,
+    "engines": {
+        "node": ">=22.0.0"
+    },
+    "dependencies": {
+        "@graphql-eslint/eslint-plugin": "^4.4.0",
+        "eslint": "^9.33.0"
+    }
+}
