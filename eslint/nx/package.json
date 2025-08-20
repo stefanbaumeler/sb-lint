@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "main": "index.js",
     "type": "module",
+    "keywords": ["eslint", "config", "javascript", "node", "nx", "monorepo", "lint"],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/stefanbaumeler/sb-lint.git"

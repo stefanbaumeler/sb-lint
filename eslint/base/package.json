@@ -1,8 +1,9 @@
 {
     "name": "@sb-lint/eslint-config-base",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "index.js",
     "type": "module",
+    "keywords": ["eslint", "config", "javascript", "node", "lint"],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/stefanbaumeler/sb-lint.git"

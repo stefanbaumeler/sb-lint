@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "main": "index.js",
     "type": "module",
+    "keywords": ["stylelint", "config", "css", "scss", "bem", "lint"],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/stefanbaumeler/sb-lint.git"

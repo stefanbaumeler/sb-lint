@@ -55,15 +55,15 @@ export default [
 
 ## Stylelint
 
-| Config | Package                                                                            | Usage |
-|--------|------------------------------------------------------------------------------------|-------|
-| base   | [@sb-lint/stylelint](https://www.npmjs.com/package/@sb-lint/stylelint-config-base) | CSS   |
-| scss   | [@sb-lint/stylelint](https://www.npmjs.com/package/@sb-lint/stylelint-config-scss) | SCSS  |
-| bem    | [@sb-lint/stylelint](https://www.npmjs.com/package/@sb-lint/stylelint-config-bem)  | BEM   |
+| Config | Package                                                                                        | Usage |
+|--------|------------------------------------------------------------------------------------------------|-------|
+| base   | [@sb-lint/stylelint-config-base](https://www.npmjs.com/package/@sb-lint/stylelint-config-base) | CSS   |
+| scss   | [@sb-lint/stylelint-config-scss](https://www.npmjs.com/package/@sb-lint/stylelint-config-scss) | SCSS  |
+| bem    | [@sb-lint/stylelint-config-bem](https://www.npmjs.com/package/@sb-lint/stylelint-config-bem)   | BEM   |
 
 ### Usage
 
-Unlike the eslint configs, you only need one of the stylelint configs. Each one builts on the previous ones.
+Unlike the eslint configs, you only need one of the stylelint configs. Each one builts on the previous ones. 
 
 ```typescript
 export default {
