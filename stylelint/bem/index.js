@@ -1,7 +1,6 @@
 export default {
     defaultSeverity: 'warning',
     extends: [
-        'stylelint-config-sass-guidelines',
         '@sb-lint/stylelint-config-scss'
     ],
     plugins: [
