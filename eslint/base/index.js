@@ -141,7 +141,7 @@ export const ignores = [
 ]
 
 export const config = [
-    ...js.configs.recommended,
+    js.configs.recommended,
     {
         ignores
     },
