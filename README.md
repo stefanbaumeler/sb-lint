@@ -17,7 +17,7 @@ You can import a full config like this:
 
 ```typescript
 import {config as sbBaseConfig} from '@sb-lint/eslint-config-base'
-import {config as sbTypescriptConfig} from '@sb-lint/eslint-config-typescript'
+import {config as sbTypescriptConfig} from '@sb-lint/eslint-config-ts'
 
 export default [
 	...sbBaseConfig,
