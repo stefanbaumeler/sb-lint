@@ -1,10 +1,6 @@
 import nx from '@nx/eslint-plugin'
 
 export const rules = {
-    ...nx.configs['flat/base'],
-    ...nx.configs['flat/typescript'],
-    ...nx.configs['flat/javascript'],
-    ...nx.configs['flat/react-typescript'],
     '@nx/enforce-module-boundaries': [
         'error',
         {
@@ -32,6 +28,10 @@ export const plugins = {
 }
 
 export const config = [
+    ...nx.configs['flat/base'],
+    ...nx.configs['flat/typescript'],
+    ...nx.configs['flat/javascript'],
+    ...nx.configs['flat/react-typescript'],
     {
         ignores
     },
