@@ -1,6 +1,6 @@
 {
     "name": "@sb-lint/eslint-config-json",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "index.js",
     "type": "module",
     "keywords": ["eslint", "config", "javascript", "node", "json", "lint"],

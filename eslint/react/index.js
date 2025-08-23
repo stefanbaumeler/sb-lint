@@ -9,6 +9,7 @@ export const rules = {
     ...nextPlugin.configs.recommended.rules,
     ...nextPlugin.configs['core-web-vitals'].rules,
     '@next/next/no-img-element': 'error',
+    '@next/next/no-html-link-for-pages': 'off',
     'react/self-closing-comp': 'error',
     'react/jsx-closing-bracket-location': ['error', {
         location: 'line-aligned'
