@@ -1,6 +1,6 @@
 {
     "name": "@sb-lint/eslint-config-base",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "index.js",
     "type": "module",
     "keywords": ["eslint", "config", "javascript", "node", "lint"],

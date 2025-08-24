@@ -36,7 +36,9 @@ export const config = [
     {
         languageOptions: {
             parserOptions: {
-                projectService: true,
+                projectService: {
+                    allowDefaultProject: ['*.js', '*.ts']
+                },
                 tsconfigRootDir: import.meta.dirname
             },
         },

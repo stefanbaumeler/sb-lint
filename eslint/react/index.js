@@ -2,8 +2,10 @@ import reactCompiler from 'eslint-plugin-react-compiler'
 import reactPlugin from 'eslint-plugin-react'
 import hooksPlugin from 'eslint-plugin-react-hooks'
 import nextPlugin from '@next/eslint-plugin-next'
+import { globalIgnores } from 'eslint/config'
 
 export const rules = {
+    ...reactCompiler.configs.recommended.rules,
     ...reactPlugin.configs['jsx-runtime'].rules,
     ...hooksPlugin.configs.recommended.rules,
     ...nextPlugin.configs.recommended.rules,
@@ -25,6 +27,7 @@ export const rules = {
 }
 
 export const plugins = {
+    ...reactCompiler.configs.recommended.plugins,
     react: reactPlugin,
     'react-hooks': hooksPlugin,
     '@next/next': nextPlugin
@@ -35,10 +38,7 @@ export const ignores = [
 ]
 
 export const config = [
-    reactCompiler.configs.recommended,
-    {
-        ignores
-    },
+    globalIgnores(ignores),
     {
         files: ['**/*.ts', '**/*.tsx'],
         plugins,

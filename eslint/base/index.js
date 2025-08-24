@@ -1,4 +1,5 @@
 import stylistic from '@stylistic/eslint-plugin'
+import { globalIgnores } from 'eslint/config'
 import js from '@eslint/js'
 import pluginImport from 'eslint-plugin-import'
 import preferArrowFunctions from 'eslint-plugin-prefer-arrow-functions';
@@ -134,17 +135,15 @@ export const plugins = {
 }
 
 export const ignores = [
-    'node_modules',
-    'dist',
-    'public',
-    'babel.config.cjs'
+    '**/node_modules',
+    '**/dist',
+    '**/public',
+    '**/babel.config.cjs'
 ]
 
 export const config = [
+    globalIgnores(ignores),
     js.configs.recommended,
-    {
-        ignores
-    },
     {
         files: ['**/*.ts', '**/*.ts', '**/*.js', '**/*.mjs', '**/*.cjs'],
         plugins,

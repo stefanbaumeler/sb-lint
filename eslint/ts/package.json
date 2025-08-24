@@ -1,9 +1,16 @@
 {
     "name": "@sb-lint/eslint-config-ts",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "index.js",
     "type": "module",
-    "keywords": ["eslint", "config", "javascript", "typescript", "ts", "lint"],
+    "keywords": [
+        "eslint",
+        "config",
+        "javascript",
+        "typescript",
+        "ts",
+        "lint"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/stefanbaumeler/sb-lint.git"
@@ -19,6 +26,6 @@
     },
     "dependencies": {
         "eslint": "^9.33.0",
-        "typescript-eslint": "^8.25.0"
+        "typescript-eslint": "^8.40.0"
     }
 }

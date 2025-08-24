@@ -1,25 +1,20 @@
 import eslintPluginJsonc from 'eslint-plugin-jsonc'
+import { globalIgnores } from 'eslint/config'
 
 export const rules = {
     'jsonc/auto': 'error',
     'jsonc/indent': ['error', 4, {}]
 }
 
-export const plugins = {
-}
-
 export const ignores = [
-    'package-lock.json'
+    '**/package-lock.json'
 ]
 
 export const config = [
+    globalIgnores(ignores),
     ...eslintPluginJsonc.configs['flat/recommended-with-json'],
     {
-        ignores
-    },
-    {
         files: ['**/*.json'],
-        plugins,
         rules
     }
 ]

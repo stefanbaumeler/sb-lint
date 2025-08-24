@@ -1,9 +1,17 @@
 {
     "name": "@sb-lint/eslint-config-nx",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "main": "index.js",
     "type": "module",
-    "keywords": ["eslint", "config", "javascript", "node", "nx", "monorepo", "lint"],
+    "keywords": [
+        "eslint",
+        "config",
+        "javascript",
+        "node",
+        "nx",
+        "monorepo",
+        "lint"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/stefanbaumeler/sb-lint.git"
@@ -19,6 +27,7 @@
     },
     "dependencies": {
         "@nx/eslint-plugin": "^21.4.0",
-        "eslint": "^9.33.0"
+        "eslint": "^9.33.0",
+        "typescript-eslint": "^8.40.0"
     }
 }

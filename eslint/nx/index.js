@@ -1,3 +1,4 @@
+import { globalIgnores } from 'eslint/config'
 import nx from '@nx/eslint-plugin'
 
 export const rules = {
@@ -20,21 +21,16 @@ export const rules = {
     ]
 }
 
-export const ignores = [
-    '.nx'
-]
-
 export const plugins = {
+    '@nx': nx
 }
 
+export const ignores = [
+    '**/.nx'
+]
+
 export const config = [
-    ...nx.configs['flat/base'],
-    ...nx.configs['flat/typescript'],
-    ...nx.configs['flat/javascript'],
-    ...nx.configs['flat/react-typescript'],
-    {
-        ignores
-    },
+    globalIgnores(ignores),
     {
         files: ['**/*.ts', '**/*.ts', '**/*.js', '**/*.mjs', '**/*.cjs'],
         plugins,
