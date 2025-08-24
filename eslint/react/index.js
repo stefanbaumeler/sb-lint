@@ -13,6 +13,7 @@ export const rules = {
     '@next/next/no-img-element': 'error',
     '@next/next/no-html-link-for-pages': 'off',
     'react/self-closing-comp': 'error',
+    'react-hooks/exhaustive-deps': 'off',
     'react/jsx-closing-bracket-location': ['error', {
         location: 'line-aligned'
     }],
